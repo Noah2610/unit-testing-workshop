@@ -1,2 +1,3 @@
-node_modules
-documents/
+/node_modules/
+/documents/*
+!/documents/.gitkeep
