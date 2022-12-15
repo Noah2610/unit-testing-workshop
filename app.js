@@ -1,12 +1,6 @@
 const fs = require("fs");
 const path = require("path");
 
-/*
-    saveDocument(name, body);
-
-    ./documents/${name}.txt
-*/
-
 function saveDocument(name, body) {
     const filePath = path.resolve(`./documents/${name}.txt`);
 
